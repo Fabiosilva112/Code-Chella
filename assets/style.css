@@ -16,9 +16,9 @@ body{
 
 header{
     background-color: #2E7BA2;
-    height: 100px;
-    padding-top: 20px;
-    
+    height: 80px;
+    display: flex;
+    align-items: center;
 }
 
 .header-div-center{
@@ -272,4 +272,161 @@ footer{
 .footer-div-center-right-text{
     color: #444444;
     line-height: 30px;
+}
+
+
+/* Esperiências */
+
+.mainExperience{
+    width: 75%;
+    margin: auto;
+}
+
+.mainExperience-sectionOne, .mainExperience-sectionThree{
+    display: flex;
+    margin-top: 44px;
+    margin-bottom: 100px;
+}
+
+.mainExperience-sectionOne-divOne, .mainExperience-sectionThree-divOne{
+    width: 50%;
+    height: 100%;
+}
+
+.mainExperience-sectionOne-divOne img, .mainExperience-sectionThree-divOne img{
+ width: 100%;
+ height: 100%;
+}
+
+.mainExperience-sectionOne-divTwo, .mainExperience-sectionThree-divTwo{
+    width: 40%;
+    padding-left: 20px;
+}
+
+.mainExperience-sectionOne-divTwo-title{
+    color: #444444;
+    margin-bottom: 20px ;
+}
+
+.mainExperience-sectionOne-divTwo-text{
+    line-height: 30px;
+    
+    margin-top: 20px;
+    color: #444444;
+    font-size: 15px;
+}
+
+.mainExperience-sectionTwo{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 100px;
+    
+}
+
+.mainExperience-sectionTwo-divOne{
+    width: 50%;
+    height: 100%;
+}
+
+.mainExperience-sectionTwo-divOne img{
+    width: 100%;
+    height: 100%;
+}
+
+.mainExperience-sectionTwo-divTwo{
+    width: 40%;
+    padding-right: 20px;
+    text-align: right;
+}
+
+/* Mapa */
+
+.mapa-main{
+    width: 90%;
+    margin: auto;
+}
+
+.stage{
+    display: flex;
+    margin-top: 25px;
+    padding-left: 180px;
+}
+
+.stage-divOne{
+    padding-left: 20px;
+}
+
+.stage-divOne img{
+    width: 90%;
+}
+
+.stage-divTwo{
+    width: 50%;
+    padding-top: 12%;
+}
+
+.stage-divTwo-title{
+    margin-bottom: 13px;
+    color: #444444;
+}
+
+.stage-divTwo-subtitle{
+    display: flex;
+    flex-direction: column;
+}
+
+.stage-divTwo-subtitle span{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    color: #444444;
+    font-size: 15px;
+}
+
+.stage-divTwo-subtitle span img{
+    margin-right: 10px;
+}
+.details{
+    margin-top: 80px;
+}
+
+.details-title{
+    text-align: center;
+}
+
+.details-div{
+    display: flex;
+    margin: 30px 0;
+}
+
+.details-div-one{
+  text-align: center;
+}
+
+.details-div-two{
+  margin: 0 10px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.details-div-three{
+    width: 33%;
+    text-align: center;
+}
+
+.details-div-three img{
+   width: 100%;
+}
+
+.details-div-one h3, .details-div-two h3, .details-div-three h3{
+    margin: 20px 0;
+    color: #444444;
+}
+
+.details-div-one p, .details-div-two p, .details-div-three p{
+    line-height: 30px;
+    width: 300px;
+    margin: auto;
+    color: #444444;
+    font-size: 16px;
 }

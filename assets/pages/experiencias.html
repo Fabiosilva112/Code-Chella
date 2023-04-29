@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CodeChella</title>
     <link rel="stylesheet" href="/assets/style.css">
+    <link rel="stylesheet" href="/assets/css/responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -22,14 +23,32 @@
             <a href="/index.html"><img src="/assets/img/Logo1 1.png" alt="Logo" class="header-logo"></a>
             <nav class="header-nav">
                 <ul class="header-ul">
-                    <li class="header-ul-li"> <a href="./experiencias.html"> A experiência</a></li>
-                    <li class="header-ul-li"> <a href="./mapa.html">Mapa de setores</a></li>
-                    <li class="header-ul-li"> <a href="./informacoes.html">Informações</a></li>
-                    <li class="header-ul-li"> <a href="./ingresso.html">Ingresso</a> </li>
+                    <li class="header-ul-li"> <a href="/assets/pages/experiencias.html"> A experiência</a></li>
+                    <li class="header-ul-li"> <a href="/assets/pages/mapa.html">Mapa de setores</a></li>
+                    <li class="header-ul-li"> <a href="/assets/pages/informacoes.html">Informações</a></li>
+                    <li class="header-ul-li"> <a href="/assets/pages/ingresso.html">Ingresso</a> </li>
                 </ul>
             </nav>
+
+            <div class="mobile-menu-icon">
+
+                <button onclick="menuShow()"><img class="icon" src="/assets/img/menu_white_36dp.svg" alt=""></button>
+
+            </div>
         </div>
+
+        <div class="mobile-menu">
+
+            <ul class="header-ul">
+                <li class="header-ul-li"> <a href="/assets/pages/experiencias.html"> A experiência</a></li>
+                <li class="header-ul-li"> <a href="/assets/pages/mapa.html">Mapa de setores</a></li>
+                <li class="header-ul-li"> <a href="/assets/pages/informacoes.html">Informações</a></li>
+                <li class="header-ul-li"> <a href="/assets/pages/ingresso.html">Ingresso</a> </li>
+            </ul>
+        </div>
+
     </header>
+
 
     <section class="first-banner experiencia">
         <h1>A experiência</h1>
@@ -91,13 +110,14 @@
 
 
             <div class="footer-div-center-right">
-                <p class="footer-div-center-right-text">Desenvolvido por Alura. <br>
-                    Projeto fictício sem fins comerciais.</p>
+                <p class="footer-div-center-right-text">Desenvolvido por Alura.</p>
+                    
+                    <p class="footer-div-center-right-text">Projeto fictício sem fins comerciais.</p>
             </div>
         </div>
 
     </footer>
-
+    <script src="/assets/js/script.js"></script>
 </body>
 
 </html>

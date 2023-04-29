@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CodeChella</title>
     <link rel="stylesheet" href="/assets/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -18,7 +19,7 @@
     <header class="header">
 
         <div class="header-div-center">
-            <a href="./index.html"><img src="./assets/img/Logo1 1.png" alt="Logo" class="header-logo"></a> 
+            <a href="./index.html"><img src="./assets/img/Logo1 1.png" alt="Logo" class="header-logo"></a>
             <nav class="header-nav">
                 <ul class="header-ul">
                     <li class="header-ul-li"> <a href="./assets/pages/experiencias.html"> A experiência</a></li>
@@ -27,11 +28,31 @@
                     <li class="header-ul-li"> <a href="./assets/pages/ingresso.html">Ingresso</a> </li>
                 </ul>
             </nav>
+
+            <div class="mobile-menu-icon">
+
+                <button onclick="menuShow()"><img class="icon" src="/assets/img/menu_white_36dp.svg" alt=""></button>
+
+            </div>
         </div>
+
+        <div class="mobile-menu">
+
+            <ul class="header-ul">
+                <li class="header-ul-li"> <a href="./assets/pages/experiencias.html"> A experiência</a></li>
+                <li class="header-ul-li"> <a href="./assets/pages/mapa.html">Mapa de setores</a></li>
+                <li class="header-ul-li"> <a href="./assets/pages/informacoes.html">Informações</a></li>
+                <li class="header-ul-li"> <a href="./assets/pages/ingresso.html">Ingresso</a> </li>
+            </ul>
+        </div>
+
     </header>
 
-    <section class="first-banner">
-        <h1>Boas-vindas ao <br> #CodeChella2023</h1>
+   
+
+    <section class="first-banner ingressoSuperior">
+        <h1>Boas-vindas ao</h1>
+        <h1>#CodeChella2023</h1>
     </section>
 
 
@@ -52,8 +73,10 @@
                         nova experiência sobre música,
                         linguagens e, claro, tecnologia! Somos um festival diverso, com vários artistas e referências.
                         Divirta-se!</p>
-                    <a href="./assets/pages/ingresso.html" class="link-buttom"><button class="master-sectionOne-div-two-button">Comprar ingresso! <img
-                            class="master-sectionOne-div-two-img" src="./assets/img/estrelinha.png" alt=""></button></a>
+                    <a href="./assets/pages/ingresso.html" class="link-buttom"><button
+                            class="master-sectionOne-div-two-button">Comprar ingresso! <img
+                                class="master-sectionOne-div-two-img" src="./assets/img/estrelinha.png"
+                                alt=""></button></a>
                 </div>
             </div>
         </section>
@@ -66,16 +89,20 @@
             <h4 class="master-sectionTwo-saturday"><span class="spanLine">SÁBADO <11 /03> </11></span>
             </h4>
 
+
             <h2 class="master-sectionTwo-system">System of a DOM</h2>
 
             <p class="master-sectionTwo-text1"> <span>Python Maiden</span> <span>Apollo Client</span> <span>2001 Bon
                     Java</span> <span>NickCallback</span></p>
 
-            <p class="master-sectionTwo-text2"> <span>Linkin Promises</span> <span>Fullstack Fighters</span> <span>Papa
-                    React</span> <span>Angular in Chains</span> </p>
+            <p class="master-sectionTwo-text2"> <span>Linkin Promises</span> <span>Fullstack Fighters</span>
+                <span>Papa
+                    React</span> <span>Angular in Chains</span>
+            </p>
 
             <p class="master-sectionTwo-text3"> <span>Agnostic Front-end</span> <span>SlipkNode</span> <span>Pink
                     Flutter</span> <span> Kiss</span> </p>
+
 
             <p class="master-sectionTwo-saturday"> <span class="spanLine">DOMINGO <12 /03>
                         </11></strong>
@@ -84,14 +111,18 @@
             <h2 class="master-sectionTwo-system">Lana Del Ploy</h2>
 
             <p class="master-sectionTwo-text1"> <span>Dua Lib</span> <span>The Backnd</span> <span>CSS Styles</span>
-                <span>DJ Query </span> <span>ArrayAna Grande</span>
+                <span>ArrayAna Grande</span> <span>Dj Query</span>
             </p>
 
-            <p class="master-sectionTwo-text2"> <span>Miley Cypress</span> <span>The Bootstrap Boys</span> <span>Json
-                    Derulo</span> <span>CloudPlay Dev</span> <span>Lovato</span> </p>
+            <p class="master-sectionTwo-text2"> <span>Miley Cypress</span> <span>The Bootstrap Boys</span>
+                <span>Json
+                    Derulo</span> <span>CloudPlay</span> <span>Dev Lovato</span>
+            </p>
 
-            <p class="master-sectionTwo-text3"> <span>Kylie MiLOG </span> <span>Jenkins Brothers</span> <span>Rubycat
-                    Dolls</span></p>
+            <p class="master-sectionTwo-text3" id="Brothers"> <span>Kylie MiLOG </span> <span>Jenkins Brothers</span>
+                <span>Rubycat
+                    Dolls</span>
+            </p>
 
         </section>
 
@@ -106,19 +137,23 @@
         <div class="footer-div-center">
             <div class="footer-div-center-left">
                 <img class="footer-div-center-left-img" src="./assets/img/Logo_footer.png" alt="">
-                <p class="footer-div-center-left-network">Acesse nossas redes: <a href=""><img src="./assets/img/twiter.png"
-                            alt=""></a> <a href=""><img src="./assets/img/instagram.png" alt=""></a> <a href=""><img
-                            src="./assets/img/mensagem.png" alt=""></a> <a href=""><img src="./assets/img/whats.png" alt=""></a> </p>
+                <p class="footer-div-center-left-network">Acesse nossas redes: <a href=""><img
+                            src="./assets/img/twiter.png" alt=""></a> <a href=""><img src="./assets/img/instagram.png"
+                            alt=""></a> <a href=""><img src="./assets/img/mensagem.png" alt=""></a> <a href=""><img
+                            src="./assets/img/whats.png" alt=""></a> </p>
             </div>
 
 
             <div class="footer-div-center-right">
-                <p class="footer-div-center-right-text">Desenvolvido por Alura. <br>
-                    Projeto fictício sem fins comerciais.</p>
+                <p class="footer-div-center-right-text">Desenvolvido por Alura.</p>
+                    
+                    <p class="footer-div-center-right-text">Projeto fictício sem fins comerciais.</p>
             </div>
         </div>
 
     </footer>
 </body>
+
+<script src="/assets/js/script.js"></script>
 
 </html>

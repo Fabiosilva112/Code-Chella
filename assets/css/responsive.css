@@ -1,0 +1,449 @@
+/* Home */
+
+@media (max-width:925px){
+
+    .header{
+        height: auto;
+        padding: 25px 0;
+    }
+
+    .header-div-center{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-nav{
+        width: 70%;
+        padding-top: 20px;
+    }
+
+    .master-sectionOne{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .master-sectionOne-div-img{
+        width: 100%;
+    }
+
+    .master-sectionOne-div-two{
+        width: 100%;
+    }
+
+    .master-sectionOne-div-two-text{
+        width: 500px;
+    }
+
+    .master-sectionTwo-title{
+        padding-bottom: 30px;
+        font-size: 40px;
+    }
+
+    .spanLine{
+        width: 800px;
+        
+    }
+
+    .div-band{
+        border: 1px solid red;
+        width: 70%;
+    }
+
+    .master-sectionTwo-text1, .master-sectionTwo-text2{
+        padding-bottom: 20px;
+        line-height: 36px;
+        width: 70%;
+        margin: auto;
+    }
+
+    .master-sectionTwo-text3{
+        width: 36%;
+        padding-bottom: 20px;
+        line-height: 30px;
+        margin: auto;
+    }
+
+    #Brothers{
+        width: 50%;
+    }
+
+    .footer{
+        padding: 30px 0;
+    }
+
+    .footer-div-center{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-div-center-left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-div-center-left-img{
+        width: 200px;
+        margin-bottom: 15px;
+    }
+
+    .footer-div-center-right{
+        display: flex;
+    }
+
+    /* Experiência */
+
+    .mainExperience-sectionOne, .mainExperience-sectionTwo, .mainExperience-sectionThree{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+
+    .mainExperience-sectionOne-divOne, .mainExperience-sectionTwo-divOne, .mainExperience-sectionThree-divOne{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .mainExperience-sectionOne-divTwo, .mainExperience-sectionTwo-divTwo, .mainExperience-sectionThree-divTwo{
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Mapa */
+
+    .stage{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+    }
+
+    .stage-divOne{
+        padding: 0 0 40px 40px;
+    }
+
+    .stage-divTwo{
+        padding: 0 0 0 80px;
+        justify-content: center;
+    }
+
+    .stage-divTwo-title{
+        text-align: left;
+    }
+
+    .details-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .details-div-two{
+        margin-top: 30px;
+    }
+
+    .details-div-three{
+        margin: 0 10px;
+        padding: 20px;
+        text-align: center;
+
+    }
+
+    .details-div-one p, .details-div-two p, .details-div-three p{
+        width: 100%;
+    }
+
+    .details-title{
+      font-size: 35px;
+      color: #444444;
+    }
+
+    /* informações */
+
+    .information-title{
+        font-size: 40px;
+    }
+
+    .first-banner {
+        background-size:150%;
+    }
+
+    .information-details{
+        width: 90%;
+    }
+
+    /*Ingreso*/
+    
+    .ticket-form{
+        width: 90%;
+    }
+
+    .ticket-form-finish{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ticket-form-finish-type{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    input{
+        margin-bottom: 10px;
+    }
+
+    .ticket-form-finish-date{
+        margin-top: 10px;
+    }
+
+    label{
+        font-weight: bold;
+    }
+
+    /* ingressoaderido*/
+
+    .ingressoAderido{
+        padding: 0 20px;
+    }
+
+    .tiketAdhered-qrcode-divTwo{
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .tiketAdhered-qrcode-description h3{
+        font-size: 30px;
+    }
+
+    .tiketAdhered{
+        padding: 0;
+    }
+
+    .tiketAdhered-title{
+        width: 100%;
+        padding: 0 40px;
+        font-size: 35px;
+        color: #444444;
+    }
+
+    .tiketAdhered-qrcode{
+        width: 80%;
+        
+    }
+}
+
+@media (max-width: 600px){
+    /* Home */
+
+    .header{
+        position: fixed;
+        z-index: 3;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-div-center {
+        flex-direction: row;
+    }
+
+    .mobile-menu-icon{
+        display: block;
+    }
+
+    .header-ul{
+        align-items: center;
+    }
+
+    .header-ul-li {
+        display: none;
+        border-bottom: 1px solid white;
+        width: 50%;
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .header-ul-li a:hover{
+        border: none; 
+    }
+
+    .mobile-menu{
+        background: #2E7BA2;
+        z-index: 3;
+        margin-top: 20px;
+        width: 100%;
+        border-top: 1px solid #444444;
+    }
+
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-menu li {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    .open {
+        display: block;
+    }
+
+    .first-banner{
+        padding-top:100px;
+        width: 100%;
+    }
+
+    .first-banner h1{
+        width: 100%;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .master-sectionOne-div{
+        width: 100%;
+        height: 300px;
+    }
+
+    .master-sectionOne-div-img{
+        height: 100%;
+    }
+
+    .master-sectionOne-div-two-title{
+        font-size: 28px;
+    }
+
+    .master-sectionOne-div-two-text{
+        width: 100%;
+        padding: 0 30px;
+    }
+
+    .master-sectionTwo-title{
+        font-size: 60px;
+    }
+
+    .master-sectionTwo-saturday::after, .master-sectionTwo-saturday::before{
+        display: none;
+    }
+
+    .master-sectionTwo-system{
+        font-size: 53px;
+    }
+
+    .master-sectionTwo-text1, .master-sectionTwo-text2, .master-sectionTwo-text3, #Brothers{
+         width: 90%;
+    }
+
+    .div-banner-footer{
+        background-size: 150%;
+    }
+
+    .footer-div-center-right{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* Experiência */
+
+    .mainExperience-sectionOne-divOne{
+        height: 400px;
+        padding: 0;
+        background-image: url(/assets/img/acessibilidade_mobile.png);
+        background-size: contain;
+        margin-bottom: 20px;
+        border-radius: 15px;
+    }
+
+    .mainExperience-sectionOne-divOne img{
+        display: none;
+    }
+
+    .mainExperience-sectionTwo-divOne{
+        height: 400px;
+        padding: 0;
+        background-size: contain;
+        margin-bottom: 20px;
+        border-radius: 15px;
+    }
+
+    .mainExperience-sectionThree-divOne{
+        height: 400px;
+        padding: 0;
+        background-size: 120%;
+        background-image: url(/assets/img/atracoes_mobile.jfif);
+        margin-bottom: 20px;
+        border-radius: 15px;
+    }
+
+    .mainExperience-sectionThree-divOne img{
+        display: none;
+    }
+
+    .mainExperience-sectionOne-divTwo-title{
+        font-size: 35px;
+    }
+
+    .mainExperience-sectionThree-divTwo{
+        padding: 0;
+    }
+
+    /*Mapas Setores */
+
+    .stage-divTwo{
+        padding: 0;
+    }
+
+    .stage-divTwo-title{
+        font-size: 30px;
+    }
+
+    .details-div-one, .details-div-two, .details-div-three{
+        width: 100%;
+        
+    }
+
+    .details-div-three{
+        padding: 25px 0 0 0;
+    }
+
+    .details-div-one img, .details-div-two img, .details-div-three img{
+        width: 100%;
+    }
+
+    .details-div-one h3, .details-div-two h3, .details-div-three h3{
+        font-size: 30px;
+    }
+
+    .details-div-one p, .details-div-two p, .details-div-three p{
+        padding: 0 20px;
+    }
+
+    /* Ingresso */
+
+    .ticket-title{
+        padding: 0 15px;
+    }
+
+    .ticket-form-finish-date{
+        width: 70%;
+    }
+
+    label{
+        margin-bottom: 10px;
+    }
+
+    
+  
+}

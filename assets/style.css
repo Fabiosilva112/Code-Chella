@@ -48,11 +48,17 @@ header{
     color: #FFFFFF;
 }
 
+.header-ul-li a:checked{
+    border-bottom: 1px solid #ffffff;
+}
+
+
 .header-ul-li a:hover{
-    border-top: 4px solid #ffffff;
-  border-bottom: 4px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
   padding: 6px 0; 
 }
+
+
 
 .mobile-menu {
     display: none;
@@ -70,6 +76,7 @@ header{
     align-items: center;
     height: 350px;
     position: relative;
+    font-size: 40px;
 }
 
 .experiencia{
@@ -659,3 +666,4 @@ input, select{
 .tiketAdhered-qrcode-description span{
     margin-bottom: 15px;
 }
+

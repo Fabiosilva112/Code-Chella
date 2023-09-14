@@ -60,18 +60,18 @@
         <form class="ticket-form" action="/assets/pages/ingressoAderido.html">
             <div class="ticket-form-divName">
                 <label>Nome completo:</label>
-                <input type="text">
+                <input type="text"  value="" class="ingre-name">
             </div>
 
             <div class="ticket-form-divEmail">
                 <label>Email:</label>
-                <input type="email">
+                <input type="email" value="" class="ingre-email">
             </div>
 
             <div class="ticket-form-finish">
                 <div class="ticket-form-finish-type">
                     <label>Tipo de ingresso</label>
-                    <select name="Selecione">
+                    <select name="Selecione" class="ingre-ingresso">
                         <option value="">Tipo de ingresso</option>
                         <option value="">Premuim</option>
                         <option value="">Pista</option>
@@ -81,13 +81,14 @@
 
                 <div class="ticket-form-finish-date">
                     <label>Data de nascimento:</label>
-                    <input type="date">
+                    <input type="date" class="ingre-date">
                 </div>
             </div>
 
-            <button class="buttom-tiket" type="submit">Avançar! <img src="/assets/img/seta.png" alt=""></button>
+            <button class="buttom-tiket" type="submit" >Avançar! <img src="/assets/img/seta.png" alt=""></button>
         </form>
-    </section>
+    </section> 
+
 
 
     <footer class="footer">

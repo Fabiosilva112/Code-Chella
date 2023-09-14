@@ -113,11 +113,9 @@ header{
 }
 
 .ingresso{
-    display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    height: 350px;
 }
 
 .ingressoAderido{
@@ -126,10 +124,6 @@ header{
     align-items: center;
     position: relative;
     height: 350px;
-}
-
-.ingressoAderido h1{
-    font-size: 10px;
 }
 
 .ingressoAderido::before{
@@ -634,7 +628,7 @@ input, select{
 
 .tiketAdhered-qrcode{
     width: 50%;
-    margin: auto;
+    margin: 12px auto;
     background:
     linear-gradient(180deg, #BFDAE6 0%, #FCF0DD 50%, #FACF9D 100%);
     ;
